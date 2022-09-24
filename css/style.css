@@ -3,7 +3,7 @@
     padding: 10px;
 }
 
-.nav_button {
+.nav_item {
     display: grid;
     margin-left: auto;
     margin-right: 100px;
@@ -14,7 +14,7 @@
     color: rgb(108, 105, 105);
 }
 
-.nav_button:hover {
+.nav_item:hover {
     color: black;    
     cursor: pointer;
 }
@@ -22,6 +22,7 @@
 .nav_title {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(108, 105, 105);
+    width: 150px;
 }
 
 .nav_title:hover {
@@ -36,5 +37,60 @@
 
 #contact {
     margin-top: -20px;
-    margin-right: 50px;
+    margin-right: 75px;
+}
+
+#switcher {
+    margin-top: -35px;
+    margin-right: -15px;
+}
+
+.blog {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main_title {
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.main_hr {
+    margin-top: 50px;
+    max-width: 450px;
+}
+
+.switcher {
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/switcher_black.png');
+    display: grid;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -34px;
+}
+
+.switcher:hover {
+    cursor: pointer;
+}
+
+#white_switch {
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/switcher_white.png');
+    margin-right: 10px;
+    margin-top: -35px;
+}
+
+#black_switch {
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/switcher_black.png');
+    margin-right: 10px;
+    margin-top: -50px;
+    visibility: hidden;
 }
