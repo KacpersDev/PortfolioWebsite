@@ -23,6 +23,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(108, 105, 105);
     width: 150px;
+    margin-left: 100px;
 }
 
 .nav_title:hover {
@@ -32,22 +33,12 @@
 
 #about {
     margin-top: -35px;
-    margin-right: 150px;
+    margin-right: 200px;
 }
 
 #contact {
     margin-top: -20px;
-    margin-right: 75px;
-}
-
-#switcher {
-    margin-top: -35px;
-    margin-right: -15px;
-}
-
-.blog {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 125px;
 }
 
 .main_title {
@@ -82,7 +73,7 @@
     width: 50px;
     height: 50px;
     background-image: url('../assets/switcher_white.png');
-    margin-right: 10px;
+    margin-right: 50px;
     margin-top: -35px;
 }
 
@@ -90,50 +81,70 @@
     width: 50px;
     height: 50px;
     background-image: url('../assets/switcher_black.png');
-    margin-right: 10px;
+    margin-right: 50px;
     margin-top: -50px;
     visibility: hidden;
 }
 
-.post {
-    margin-top: 50px;
+#github {
+    margin-left: 125px;
 }
 
-.post:hover {
-    cursor: pointer;
-}
-
-.topic {
-    text-align: center;
-    font-size: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    color: white;
-}
-
-.post_data {
-    text-align: center;
-    font-size: 14px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(108, 105, 105);
-}
-
-.topic_description {
-    text-align: center;
-    font-size: 20px;
-    color: white;
-}
-
-.blog_page {
-    color: rgb(108, 105, 105);
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.name_item {
-    margin-left: 20px;
+#linkedin {
+    margin-left: 25px;
 }
 
 .name_item:hover {
     cursor: pointer;
+}
+
+.about_title {
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.about_description {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    line-height: 25px;
+}
+
+.skills_title {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills_description {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(108, 105, 105);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skill_image {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill_image:hover {
+    cursor: pointer;
+}
+
+.skills_hr {
+    width: 2%;
 }
