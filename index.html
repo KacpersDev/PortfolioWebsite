@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js"></script>
+    <script src="js/animation.js"></script>
     <title>Kacper | Portfolio</title>
 </head>
 <!-- FIX SWTICHER, WHITE THINGS ARE NOT GOING DARK-->
-<body bgcolor="#222426">
+<body bgcolor="#222426" onload="load()">
     <nav class="navbar">
         <p class="nav_title" onclick="location.href = '#'">Kacper Mikolajczyk</p>
         <button class="nav_item" id="about" onclick="location.href ='#'">About Me</button>
@@ -24,6 +25,7 @@
         <button class="bar_item" id="bar-about" onclick="location.href = '#'">About Me</button>
         <button class="bar_item" id="bar-contact" onclick="location.href = 'sub/contact.html'">Contact</button>
     </nav>
+    <div class="rain" id="rain_id"></div>
     <main class="about">
         <p class="about_title" id="about-title">Hi I'm Kacper</p>
         <p class="about_description" id="about-description">
@@ -53,8 +55,8 @@
         <hr class="skills_hr">
     </div>
     <div class="projects">
-        <p class="projects_title">Projects</p>
-        <p class="projects_description">(By clicking on image will move you to website)</p>
+        <p class="projects_title" id="projects-title">Projects</p>
+        <p class="projects_description" id="projects-description">(By clicking on image will move you to website)</p>
     </div>
 </body>
 </html>

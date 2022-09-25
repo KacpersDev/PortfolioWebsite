@@ -13,8 +13,8 @@
         <p class="nav_title" onclick="location.href = '../index.html'">Kacper Mikolajczyk</p>
         <button class="nav_item" id="about" onclick="location.href ='../index.html'">About Me</button>
         <button class="nav_item" id="contact" onclick="location.href ='#'">Contact</button>
-        <button class="nav_item" id="white_switch" onclick="switcher()"></button>
-        <button class="nav_item" id="black_switch" onclick="switcher()"></button>
+        <button class="nav_item" id="white_switch"></button>
+        <button class="nav_item" id="black_switch"></button>
         <img class="name_item" id="github" src="../assets/github.png" alt="github"
         onclick="location.href='https://github.com/KacpersDev'">
         <img class="name_item" id="linkedin" src="../assets/linkedin.png" alt="linkedin"
@@ -25,10 +25,11 @@
     </nav>
     <div class="contact">
         <p class="contact_title">Contact Me</p>
-        <input class="name" placeholder="Full Name" type="text" required>
-        <input class="email" placeholder="Email" type="text" required>
+        <input class="name" id="name" placeholder="Full Name" type="text" required>
+        <input class="email" id="email" placeholder="Email" type="text" required>
         <textarea class="text" placeholder="Request" name="textarea" id="textarea" required></textarea>
-        <input class="submit_button" type="submit" name="submit_button" id="submit">
+        <input class="submit_button" type="submit" name="submit_button" id="submit"
+        onclick="submitButton()">
     </div>
 </body>
 </html>
