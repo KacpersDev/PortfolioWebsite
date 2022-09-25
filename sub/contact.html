@@ -13,8 +13,8 @@
         <p class="nav_title" onclick="location.href = '../index.html'">Kacper Mikolajczyk</p>
         <button class="nav_item" id="about" onclick="location.href ='../index.html'">About Me</button>
         <button class="nav_item" id="contact" onclick="location.href ='#'">Contact</button>
-        <button class="nav_item" id="white_switch"></button>
-        <button class="nav_item" id="black_switch"></button>
+        <button class="nav_item" id="white_switch" onclick="colorSwitch()"></button>
+        <button class="nav_item" id="black_switch" onclick="colorSwitch()"></button>
         <img class="name_item" id="github" src="../assets/github.png" alt="github"
         onclick="location.href='https://github.com/KacpersDev'">
         <img class="name_item" id="linkedin" src="../assets/linkedin.png" alt="linkedin"
@@ -24,7 +24,7 @@
         <button class="bar_item" id="bar-contact" onclick="location.href = '#'">Contact</button>
     </nav>
     <div class="contact">
-        <p class="contact_title">Contact Me</p>
+        <p class="contact_title" id="contact-title">Contact Me</p>
         <input class="name" id="name" placeholder="Full Name" type="text" required>
         <input class="email" id="email" placeholder="Email" type="text" required>
         <textarea class="text" placeholder="Request" name="textarea" id="textarea" required></textarea>

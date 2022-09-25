@@ -295,16 +295,6 @@
     cursor: pointer;
 }
 
-.rain {
-    animation: move 3s;
-    position: absolute;
-    width: 10px;
-    height: 30px;
-    background-color: lightblue;
-    left: 50%;
-    top: 100px;
-}
-
 /* TODO CONTACT.HTML RESPONSIVE */
 @media only screen and (max-width: 750px) {
 
@@ -355,6 +345,38 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .name {
+        margin-top: -5px;
+        margin-left: 0px;
+        min-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .email {
+        margin-top: 10px;
+        margin-left: 0;
+        min-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text {
+        margin-top: 10px;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .submit_button {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        max-width: 60%;
+    }
+}
+
 @media only screen and (max-width: 360px) {
 
     .nav_title {
@@ -378,4 +400,4 @@
     }
 }
 
-@keyframes move { 100%{ left: 50px; top: 0px; } 100%{ left: 50%; top: 25%; background-color:darkturquoise; border-radius: 10px}};
+/*@keyframes move { 100%{ left: 50px; top: 0px; } 100%{ left: 45%; top: 30%; background-color:coral; border-radius: 10px; width: 100px}};
