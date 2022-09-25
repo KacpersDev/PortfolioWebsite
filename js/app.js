@@ -1,4 +1,5 @@
 let color = 'dark';
+let clicked = false;
 
 const switcher = () => {
     if (color === 'dark') {
@@ -23,3 +24,15 @@ const switcher = () => {
         document.getElementById('skills-title').style.color = 'white';
     }
 };
+
+const barClick = () => {
+    if (!clicked) {
+        document.getElementById('bar-about').style.visibility = 'visible';
+        document.getElementById('bar-contact').style.visibility = 'visible';
+        clicked = true;
+    } else {
+        document.getElementById('bar-about').style.visibility = 'hidden';
+        document.getElementById('bar-contact').style.visibility = 'hidden';
+        clicked = false;
+    }
+}
