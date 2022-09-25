@@ -183,8 +183,8 @@
 }
 
 .bar_item {
-    margin-top: 20px;
     visibility: hidden;
+    margin-top: 20px;
     display: grid;
     margin-left: auto;
     margin-right: 20px;

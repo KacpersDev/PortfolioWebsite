@@ -30,9 +30,17 @@ const barClick = () => {
         document.getElementById('bar-about').style.visibility = 'visible';
         document.getElementById('bar-contact').style.visibility = 'visible';
         clicked = true;
-    } else {
+    } else if (clicked) {
         document.getElementById('bar-about').style.visibility = 'hidden';
         document.getElementById('bar-contact').style.visibility = 'hidden';
         clicked = false;
     }
 }
+
+const resize = () => {
+    document.getElementById('bar-about').style.visibility = 'hidden';
+    document.getElementById('bar-contact').style.visibility = 'hidden';
+    clicked = false;
+}
+
+window.onresize = resize;
